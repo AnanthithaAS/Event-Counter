@@ -1,0 +1,30 @@
+# Node dependencies & build artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+
+# Python & Django
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+db.sqlite3
+*.log
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
