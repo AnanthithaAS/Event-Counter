@@ -2,7 +2,6 @@
 Django settings for config project.
 Event Countdown Timer Backend
 """
-
 from pathlib import Path
 from datetime import timedelta
 
@@ -99,6 +98,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR/"staticfiles"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
